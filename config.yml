@@ -1,0 +1,10 @@
+process_names: 
+  - name: "{{.Username}}:{{.ExeBase}}:{{.Matches.procDetails}}"
+    cmdline: 
+      - (?P<procDetails>\s[^\s]+.py)
+    exe: 
+      - python
+
+  - name: "{{.Username}}:{{.ExeBase}}"
+    cmdline: 
+      - .+
