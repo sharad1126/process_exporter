@@ -1,7 +1,7 @@
 # process_exporter
 Process Exporter for Prometheus server. Used for monit-graphana.
 
-## Use main exporter from:
+## Used main exporter from:
 https://github.com/ncabatoff/process-exporter
 
 ## Contribution:
