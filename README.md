@@ -21,3 +21,6 @@ And any other process as
 
 groupname="sagarwal:process-exporter"
 ```
+
+## Command to execute:
+sudo nohup ./process-exporter -web.listen-address ":<port number>" -config.path config.yml 2>&1 1>& /dev/null < /dev/null &
