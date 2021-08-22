@@ -1,6 +1,8 @@
 # process_exporter
 Process Exporter for Prometheus server. Used for monit-graphana.
 
+[![DOI](https://zenodo.org/badge/265208616.svg)](https://zenodo.org/badge/latestdoi/265208616)
+
 ## Used main exporter from:
 https://github.com/ncabatoff/process-exporter
 
